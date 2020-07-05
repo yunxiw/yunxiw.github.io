@@ -1,0 +1,90 @@
+.bannerImg{
+    width: 1225px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+}
+.phoneItem{
+    width: 991px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.phoneItemList{
+    width: 234px;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all .2s linear;
+    position: relative;
+}
+.phoneItemList:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translate3d(0,-3px,0);
+}
+.phoneTitle{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.phoneSub{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #b0b0b0;
+}
+.phoneMoney{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.phoneMon{
+    color: #ff6700;
+    margin-right: 5px;
+}
+.phoneYun{
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+.phoneImg{
+    width: 234px;
+}
+.phoneImgItem{
+    width: 160px;
+    height: 160px;
+}
+
+/* 家电 */
+.jiadian{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.jiadian>div{
+    margin-top: 15px;
+}
+.oneTitle{
+    padding: 20px 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oneBanner{
+    width: 200px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.oneBannerAction{
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+    box-sizing: border-box;
+}
+.lastPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}

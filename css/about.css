@@ -1,0 +1,38 @@
+.fenlei{
+    padding: 20px 0;
+}
+.list{
+    display: flex;
+}
+.list>div{
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-right: 0px;
+    color: #939292;
+}
+.listAction{
+    border-bottom: 0px!important;
+    background: lightgreen;
+    color: #000000!important;
+}
+.list>div:first-child{
+    border-top-left-radius: 3px;
+}
+.list>div:last-child{
+    border-right: 1px solid #e0e0e0;
+    border-top-right-radius: 3px;
+}
+.listFooter{
+    display: flex;
+    margin-top: 20px;
+}
+.listFooter>div{
+    padding: 5px 10px;
+    margin-left: 7px;
+    border: 1px solid #d3cfcf;
+    border-radius: 3px;
+}
+.listFooterAction{
+    background: #3ce769;
+    color: #ffffff;
+}

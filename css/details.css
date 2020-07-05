@@ -1,0 +1,102 @@
+.detailHeader{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 5px;
+}
+.detailTitle{
+    font-size: 25px;
+}
+.detailHeaderItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b0b0b0;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.detailImg{
+    height: 560px;
+}
+.detailText{
+    width: 640px;
+    height: 600px;
+    box-sizing: border-box;
+}
+.textTitle{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.subTitle{
+    font-size: 14px;
+    color: gray;
+    padding: 10px 0;
+}
+.textAuthor{
+    font-size: 18px;
+    color: hotpink;
+    padding: 10px 0;
+}
+.textMoney{
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.textNew{
+    color: hotpink;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.textOld{
+    color: #b0b0b0;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.textAll{
+    margin: 40px 0;
+    padding: 30px 40px;
+    height: 180px;
+    background: #efefef;
+    border-radius: 3px;
+}
+.textAllMoney{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.textMoneyAll{
+    font-size: 25px;
+    color: hotpink;
+    padding: 20px 0;
+}
+.textButton{
+    padding: 20px 120px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+    color: #ffffff;
+    background: grey;
+}
+.buttonRed{
+    background: #ff5722;
+}
+.buttonFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.textAbout{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-size: 16px;
+    color: #b0b0b0;
+}
+.textAbout>div{
+    padding: 0 10px;
+}

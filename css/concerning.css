@@ -1,0 +1,14 @@
+.aboutme{
+    padding: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid pink;
+}
+.aboutTitle{
+    padding: 30px 0;
+    color: grey;
+    font-size: 26px;
+}
+.aboutSub{
+    line-height: 40px;
+    font-size: 18px;
+}
